@@ -51,6 +51,8 @@ let questions = [
 
 let currentQuestion = 0;
 
+let rightQuestions = 0;
+
 function init() {
     document.getElementById('all-questions').innerHTML = questions.length;
 
@@ -60,8 +62,21 @@ function init() {
 function showQuestion() {
 
     if (currentQuestion >= questions.length) {
+        document.getElementById('endScreen').style = '';
+        document.getElementById('questionBody').style = 'display: none';
 
+        document.getElementById('amount-of-questions').innerHTML = questions.length;
+        document.getElementById('amount-of-right-questions').innerHTML = rightQuestions;
+        document.getElementById('header-image').src = 'img/win.png';
     } else {
+
+        let percent = (currentQuestion + 1) / questions.length;
+        percent = Math.round(percent * 100);
+        document.getElementById('progress-bar').innerHTML = `${percent} %`;
+        document.getElementById('progress-bar').style = `width: ${percent}%`;
+
+        console.log('Fortschritt', percent);
+
         let question = questions[currentQuestion];
 
         document.getElementById('question-number').innerHTML = currentQuestion + 1;
@@ -74,19 +89,14 @@ function showQuestion() {
 }
 
 function answer(selection) {
-    let question = questions[currentQuestion];
-    console.log('selected answer is', selection);
+    let question = questions[currentQuestion];;
     let selectedQuestionNumber = selection.slice(-1);
-    console.log('selectedQuestionNumber is', selectedQuestionNumber);
-    console.log('current right answer is', question['right_answer']);
-
     let idOfRightAnswer = `answer_${question['right_answer']}`;
 
     if (selectedQuestionNumber == question['right_answer']) {
-        console.log('Richtige Antwort!!');
         document.getElementById(selection).parentNode.classList.add('bg-success');
+        rightQuestions++;
     } else {
-        console.log('Falsche Antwort!!');
         document.getElementById(selection).parentNode.classList.add('bg-danger');
         document.getElementById(idOfRightAnswer).parentNode.classList.add('bg-success');
     }
