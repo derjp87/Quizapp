@@ -30,7 +30,8 @@
       <img src="img/quiz.png" id="header-image" class="card-img-top">
 
       <div class="progress">
-        <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">25%</div>
       </div>
 
       <div class="card-body" id="endScreen" style="display: none;">
@@ -38,7 +39,12 @@
           Quiz beendet!
         </div>
         <div class="text-center">
-          Du hast <b id="amount-of-right-questions">XXX</b> Fragen von <b id="amount-of-questions">XXX</b> richtig beantwortet!
+          Du hast <b id="amount-of-right-questions">XXX</b> Fragen von <b id="amount-of-questions">XXX</b> richtig
+          beantwortet!
+        </div>
+
+        <div class="button-row">
+          <button onclick="restartGame()" class="btn btn-primary">Erneut spielen</button>
         </div>
       </div>
 
