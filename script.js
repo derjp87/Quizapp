@@ -1,51 +1,123 @@
 let questions = [
     {
-        "questions": "Frage1",
-        "answer_1": "Antwort11",
-        "answer_2": "Antwort12",
-        "answer_3": "Antwort13",
-        "answer_4": "Antwort14",
+        "questions": "Was ist das größte Tier der Welt?",
+        "answer_1": "Elefant",
+        "answer_2": "Giraffe",
+        "answer_3": "Blauwal",
+        "answer_4": "Braunbär",
         "right_answer": 3
     },
     {
-        "questions": "Frage2",
-        "answer_1": "Antwort21",
-        "answer_2": "Antwort22",
-        "answer_3": "Antwort23",
-        "answer_4": "Antwort24",
+        "questions": "Wie heißt der höchste Berg?",
+        "answer_1": "Alpen",
+        "answer_2": "Zugspitze",
+        "answer_3": "Annapurna",
+        "answer_4": "Mount Everest",
+        "right_answer": 4
+    },
+    {
+        "questions": "Wie viele Flügel hat ein Schmetterling?",
+        "answer_1": "4",
+        "answer_2": "2",
+        "answer_3": "6",
+        "answer_4": "5",
+        "right_answer": 1
+    },
+    {
+        "questions": "Ab wie vielen Jahren ist man in Deutschland volljährig?",
+        "answer_1": "16",
+        "answer_2": "18",
+        "answer_3": "20",
+        "answer_4": "21",
         "right_answer": 2
     },
     {
-        "questions": "Frage3",
-        "answer_1": "Antwort31",
-        "answer_2": "Antwort32",
-        "answer_3": "Antwort33",
-        "answer_4": "Antwort34",
-        "right_answer": 4
+        "questions": "Auf welchem Kontinent liegt Deutschland?",
+        "answer_1": "Asien",
+        "answer_2": "Afrika",
+        "answer_3": "Europa",
+        "answer_4": "Nordamerika",
+        "right_answer": 3
     },
     {
-        "questions": "Frage4",
-        "answer_1": "Antwort41",
-        "answer_2": "Antwort42",
-        "answer_3": "Antwort43",
-        "answer_4": "Antwort44",
-        "right_answer": 4
+        "questions": "Wie heißt Pippi Langstrumpfs Affe?",
+        "answer_1": "Herr Schuler",
+        "answer_2": "Herr Nielson",
+        "answer_3": "Herr Peterson",
+        "answer_4": "Herr Mayer",
+        "right_answer": 2
     },
     {
-        "questions": "Frage5",
-        "answer_1": "Antwort51",
-        "answer_2": "Antwort52",
-        "answer_3": "Antwort53",
-        "answer_4": "Antwort54",
+        "questions": "Wie viele Spieler hat eine Fußballmannschaft?",
+        "answer_1": "9",
+        "answer_2": "10",
+        "answer_3": "11",
+        "answer_4": "12",
+        "right_answer": 3
+    },
+    {
+        "questions": "Wie heißt die Hauptstadt von Deutschland?",
+        "answer_1": "Berlin",
+        "answer_2": "München",
+        "answer_3": "Stuttgart",
+        "answer_4": "Hamburg",
         "right_answer": 1
     },
     {
-        "questions": "Frage6",
-        "answer_1": "Antwort61",
-        "answer_2": "Antwort62",
-        "answer_3": "Antwort63",
-        "answer_4": "Antwort64",
-        "right_answer": 1
+        "questions": "Welche Form hat die Narbe auf Harry Potters Stirn?",
+        "answer_1": "Dreieck",
+        "answer_2": "Kreis",
+        "answer_3": "Blitz",
+        "answer_4": "Kreuz",
+        "right_answer": 3
+    },
+    {
+        "questions": "Wie viele Minuten hat eine Stunde?",
+        "answer_1": "10",
+        "answer_2": "100",
+        "answer_3": "60",
+        "answer_4": "600",
+        "right_answer": 3
+    },
+    {
+        "questions": "Wie nennt man einen jungen Hund?",
+        "answer_1": "Fohlen",
+        "answer_2": "Welpe",
+        "answer_3": "Ferkel",
+        "answer_4": "Kitz",
+        "right_answer": 2
+    },
+    {
+        "questions": "Welche Sprache sprechen Engländer?",
+        "answer_1": "Deutsch",
+        "answer_2": "Französisch",
+        "answer_3": "Englisch",
+        "answer_4": "Italienisch",
+        "right_answer": 3
+    },
+    {
+        "questions": "An welchem Datum wird jedes Jahr Heiligabend gefeiert?",
+        "answer_1": "23. Dezember",
+        "answer_2": "24. Dezember",
+        "answer_3": "25. Dezember",
+        "answer_4": "26. Dezember",
+        "right_answer": 2
+    },
+    {
+        "questions": "Wie viele Stacheln hat ein Igel ungefähr?",
+        "answer_1": "50",
+        "answer_2": "500",
+        "answer_3": "1000",
+        "answer_4": "5000",
+        "right_answer": 4
+    },
+    {
+        "questions": "Welches Fest feiern wir am Ende eines jeden Jahres?",
+        "answer_1": "Ostern",
+        "answer_2": "Nikolaus",
+        "answer_3": "Weihnachten",
+        "answer_4": "Silvester",
+        "right_answer": 4
     },
 ];
 
